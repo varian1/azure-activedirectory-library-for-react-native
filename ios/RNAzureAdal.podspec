@@ -12,12 +12,12 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "durgaprasad.budhwani@gmail.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/author/RNAzureAdal.git", :tag => "master" }
-  s.source_files  = "RNAzureAdal/**/*.{h,m}"
+  s.source_files = "ios/**/*.{h,m}"
   s.requires_arc = true
 
 
   s.dependency "React"
-  #s.dependency "others"
+  s.dependency "ADAL", "~>2.7.16"
 
 end
 
