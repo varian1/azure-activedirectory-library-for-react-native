@@ -37,8 +37,8 @@ repositories {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':ReactAndroid')
-    compile 'com.microsoft.aad:adal:1.12.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'com.microsoft.aad:adal:1.12.0'
 }
   
